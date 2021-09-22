@@ -1,2 +1,6 @@
-## Project Proposal
-Given the presence of covid, can I predict what a movie would make depending on release date and whether or not it is also streaming at home? Box office revenue-wise. 
+# Project Proposal
+I am investigating the impact of covid-19 on the theater industry and the subsequent recovery effort by examining box office profits by month throughout the year of 2021. The goal is to investigate if I can predict the profit of box office releases based on the improving vaccination rates of the United States. By doing so I aim to provide confidence for shareholders that the film industry will recover as will the theater industry as vaccination rates increase.
+## MVP and Data Used
+I will be examining 9 months of movie data webscraped from boxofficemojo.com using BeautifulSoup and Selenium, as well as periodically saving that data into a csv file and exploring it through SQLite and Pandas. This data will contain features such as the gross of each observed movie and the day each movie was released on. The vaccination data will come from CDC's publically available database that is stored with SQLite and will be explored through Pandas and numpy as well. The features of this data include the number of vaccines distributed by manufacturer per each observed day, as well as a total number of complete series vaccinations per day by location.
+
+The **MVP** would be a markdown file containing a figure of the linear regression showing the correlation between the overall gross of movies released and the number of vaccinations.
