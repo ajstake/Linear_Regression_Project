@@ -15,7 +15,7 @@ The primary data used was box office data from boxofficemojo that was scraped us
 
 ## Algorithms
 
-Linear regression was the primary model used, with feature engineering used for several categorical features. This model was then tested and found to have an R-squared value of 0.7103949865128956 and a Mean of Absolute errors(MAE) of 8,010,208.311180508, or ~$8 million. This model was cross validated and had regularization used in the form of LASSO and Ridge regression, but was still found to perform as well as either regularized model. The final R-squared value of the linear regression model was found to be 0.6918843924735739 with an MAE of 9606285.61836551, or ~$9.6 million.
+Linear regression was the primary model used, with feature engineering used for several categorical features. This model was then tested and found to have an R-squared value of 0.71039 and a Mean of Absolute errors(MAE) of 8,010,208.31, or ~$8 million. This model was cross validated and had regularization used in the form of LASSO and Ridge regression, but was still found to perform as well as either regularized model. The final R-squared value of the linear regression model was found to be 0.69188 with an MAE of 9606285.61, or ~$9.6 million.
 ## Tools
 
 - BeautifulSoup for webscraping
